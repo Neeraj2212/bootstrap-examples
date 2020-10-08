@@ -4,7 +4,8 @@
   "description": "Week 1 ",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/"
   },
   "author": "Neeraj patil",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "popper.js": "^1.12.9"
   },
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.14.1"
   }
 }
